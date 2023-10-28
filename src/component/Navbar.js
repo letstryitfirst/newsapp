@@ -9,7 +9,7 @@ const Navbar=()=> {
         <img src={Image} alt='This is a Component'></img>
     </div>
     <ul className="list">
-    <li className="nav-item"><Link className="nav-link" aria-current="page" to="/">Home</Link></li>
+    <li className="nav-item"><Link className="nav-link" aria-current="page" to="/newsapp">Home</Link></li>
              <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
              <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
              <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
